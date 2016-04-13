@@ -1,0 +1,80 @@
+
+body{
+    background-size: 100% 100%;
+    background-image: url("http://farm4.static.flickr.com/3555/3306840476_d545f20053.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}
+
+header{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#content{
+    width: 80%;
+    background-color: mediumpurple;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    min-width: 850px;
+}
+
+.img-circle
+{
+    border-radius: 50%;
+    border:20px;
+    border-color:darkgrey;
+}
+
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+#slider{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    max-height: 450px;
+    height: auto;
+    overflow: hidden;
+}
+
+img{
+    border: solid;
+}
