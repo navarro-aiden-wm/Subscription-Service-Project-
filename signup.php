@@ -91,7 +91,7 @@ $users = $stmt->fetchAll();
             border: solid;
         }
     </style>
-    <script src="jquery-2.1.4.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 </head>
 <body>
