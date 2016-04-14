@@ -6,6 +6,16 @@
  * Time: 6:01 PM
  */
 
+require_once ("connect.php");
+
+if (@$_POST['add'])
+{
+    $productId = $_POST['add'];
+    $sql = "INSERT INTO `SubService`.`orders` (`productId`, `userId`) VALUES ('".$productId."', '1');";
+    $stmt = $dbh -> prepare($sql);
+    $stmt -> execute();
+    header("Location: added.html");
+}
 
 ?>
 
