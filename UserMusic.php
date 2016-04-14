@@ -1,3 +1,12 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: session2
+ * Date: 4/14/16
+ * Time: 3:57 PM
+ */
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +35,7 @@
 </div>
 
 <div id="content">
-    <h1 align="center">Welcome</h1>
+    <h1 align="center">Your Music</h1>
     <div style="text-align: center">
         <img src="imgs/music.jpg"  height="625px">
     </div>
