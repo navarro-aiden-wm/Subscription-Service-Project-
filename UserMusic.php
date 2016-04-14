@@ -30,18 +30,17 @@
         <li><a href='index.php'><span>Home</span></a></li>
         <li><a href='intro.html'><span>Intro</span></a></li>
         <li><a href='signUp.php'><span>Sign up</span></a></li>
-        <li><a href="UserMusic.php"><span>Your Music</span></a></li>
+        <li><a href="userMusic.php"><span>Your Music</span></a></li>
     </ul>
 </div>
 
 <div id="content">
     <h1 align="center">Your Music</h1>
-    <div style="text-align: center">
-        <img src="imgs/music.jpg"  height="625px">
-    </div>
-    <h3 style="text-align: center">About</h3>
-    <p style="font-size: large"></p>
+    <p style="font-size: large">All genres you have selected will be shown here, this is where you can remove genres that are unwanted.</p>
 
+    <div id="music">
+
+    </div>
 </div>
 </body>
 </html>

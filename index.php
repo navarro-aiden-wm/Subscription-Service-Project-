@@ -43,7 +43,7 @@
         <li><a href='index.php'><span>Home</span></a></li>
         <li><a href='intro.html'><span>Intro</span></a></li>
         <li><a href='signUp.php'><span>Sign up</span></a></li>
-        <li><a href="UserMusic.php"><span>Your Music</span></a></li>
+        <li><a href="userMusic.php"><span>Your Music</span></a></li>
     </ul>
 </div>
 <!-- END OF NAVIGATION BAR -->

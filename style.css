@@ -25,6 +25,10 @@ header{
     min-width: 850px;
 }
 
+#music{
+    border: dashed;
+}
+
 .img-circle
 {
     border-radius: 50%;
