@@ -10,7 +10,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Music Club</title>
@@ -19,16 +19,17 @@
         // Popup window code
         function newPopup(url) {
             popupWindow = window.open(
-                url,'popUpWindow','height=1000%,width=1000%,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+                url, 'popUpWindow', 'height=1000%,width=1000%,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
         }
     </script>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" type="text/css" href="navigation.css"/>
     <style>
-        th{
+        th {
             width: 24.9%;
         }
-        .img-circle{
+
+        .img-circle {
             margin-top: 20px;
         }
     </style>
@@ -51,13 +52,11 @@
     <table align="center">
         <tr style="margin-bottom: 10px;">
             <th>
-                <div id="batman">
-                    <img class="img-circle" src="imgs/rock.jpg" width="200px" height="200px">
-                    <form name="add" method="post">
-                        <p>Rock</p>
-                        <button name="add" type="submit" value="1">Add to list</button>
-                    </form>
-                </div>
+                <img class="img-circle" src="imgs/rock.jpg" width="200px" height="200px">
+                <form name="add" method="post">
+                    <p>Rock</p>
+                    <button name="add" type="submit" value="1">Add to list</button>
+                </form>
             </th>
 
             <th>
