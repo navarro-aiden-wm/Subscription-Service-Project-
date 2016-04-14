@@ -41,6 +41,7 @@
     <ul>
         <li><a href='index.php'><span>Home</span></a></li>
         <li><a href="intro.html"><span>Intro</span></a></li>
+        <li><a href='signup.php'><span>Sign up</span></a></li>
     </ul>
 </div>
 <!-- END OF NAVIGATION BAR -->

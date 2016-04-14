@@ -91,16 +91,15 @@ $users = $stmt->fetchAll();
             border: solid;
         }
     </style>
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="jquery-2.1.4.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div style="z-index: 10" id='cssmenu'>
     <ul>
         <li><a href='index.php'><span>Home</span></a></li>
-        <li><a href='info.html'><span>Info</span></a></li>
+        <li><a href='intro.html'><span>Intro</span></a></li>
         <li><a href='signup.php'><span>Sign up</span></a></li>
-        <li><a href='cart&checkout.php'><span>Shopping Cart</span></a></li>
     </ul>
 </div>
 
