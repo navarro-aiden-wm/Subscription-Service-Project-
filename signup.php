@@ -68,7 +68,7 @@ $users = $stmt->fetchAll();
 <head>
     <meta charset="utf-8">
     <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
-    <title>Watch Shop</title>
+    <title>Music Club</title>
     <script src="jquery-2.1.4.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" type="text/css" href="navigation.css"/>

@@ -2,17 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome</title>
+    <title>Watch Shop</title>
     <script src="jquery-2.1.4.min.js"></script>
-    <script type="text/javascript">
-        // Popup window code
-        function newPopup(url) {
-            popupWindow = window.open(
-                    url,'popUpWindow','height=1000%,width=1000%,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
-        }
-    </script>
     <link rel="stylesheet" type="text/css" href="style.css"/>
-    <link rel="stylesheet" type="text/css" href="navigation.css"/>
+    <link rel="stylesheet" type="text/css" href="navagation.css"/>
     <style>
         th{
             width: 24.9%;
@@ -23,17 +16,22 @@
     </style>
 </head>
 <body>
-
 <div style="z-index: 10" id='cssmenu'>
     <ul>
         <li><a href='index.php'><span>Home</span></a></li>
-        <li><a href="intro.html"><span>Intro</span></a></li>
+        <li><a href='intro.html'><span>Intro</span></a></li>
+        <li><a href='signup.php'><span>Sign up</span></a></li>
     </ul>
 </div>
 
 <div id="content">
-    <h1 style="text-align: center">Welcome</h1>
-    <img src="imgs/music.jpg">
+    <h1 align="center">Welcome</h1>
+    <div style="text-align: center">
+        <img src="imgs/music.jpg"  height="625px">
+    </div>
+    <h3 style="text-align: center">About</h3>
+    <p style="font-size: large"></p>
+
 </div>
 </body>
 </html>
