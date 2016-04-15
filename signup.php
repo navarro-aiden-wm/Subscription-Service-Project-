@@ -185,7 +185,7 @@ $users = $stmt->fetchAll();
         foreach($users as $user){}
            ?>
             <tr>
-                <td><?php echo $user['iduserSignUp']?></td>
+                <td><?php echo $user['userId']?></td>
                 <td><?php echo $user['nameFirst']?></td>
                 <td><?php echo $user['nameLast']?></td>
                 <td><?php echo $user['email']?></td>
