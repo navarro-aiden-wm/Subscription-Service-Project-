@@ -54,6 +54,7 @@ if (@$_POST['add'])
         <li><a href='intro.html'><span>Intro</span></a></li>
         <li><a href='signUp.php'><span>Sign up</span></a></li>
         <li><a href="userMusic.php"><span>Your Music</span></a></li>
+        <li><a href="contact.html"><span>Contact & Info</span></a></li>
     </ul>
 </div>
 <!-- END OF NAVIGATION BAR -->
@@ -115,7 +116,7 @@ if (@$_POST['add'])
             <th>
                 <img class="img-circle" src="imgs/hop.png" width="200px" height="200px">
                 <form name="add" method="post">
-                    <p>Hop</p>
+                    <p>Hip Hop</p>
                     <button name="add" type="submit" value="7">Add to list</button>
                 </form>
             </th>

@@ -101,6 +101,7 @@ $users = $stmt->fetchAll();
         <li><a href='intro.html'><span>Intro</span></a></li>
         <li><a href='signUp.php'><span>Sign up</span></a></li>
         <li><a href="userMusic.php"><span>Your Music</span></a></li>
+        <li><a href="contact.html"><span>Contact & Info</span></a></li>
     </ul>
 </div>
 
