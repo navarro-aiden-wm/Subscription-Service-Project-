@@ -36,10 +36,7 @@
 </div>
 
 <div id="content">
-    <h1 align="center">Your Music</h1>
-    <p style="font-size: large">All genres you have selected will be shown below, this is where you can remove genres that are unwanted.</p>
-
-    <p style="font-size: large">1= rock, 2= pop, 3= jazz, 4= rap, 5= country, 6= blues, 7= hip hop, 8= punk, 9= electronic.</p>
+    <h1 align="center">Users</h1>
     <div id="music">
         <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
 
