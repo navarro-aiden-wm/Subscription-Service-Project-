@@ -5,18 +5,32 @@
  * Date: 2/3/16
  * Time: 6:01 PM
  */
+require_once("connect.php");
 
-require_once ("connect.php");
-
-if (@$_POST['add'])
+if(@$_POST['add'])
 {
     $productId = $_POST['add'];
-    $sql = "INSERT INTO `SubService`.`genre` (`productId`, `userId`) VALUES ('".$productId."', '1');";
-    $stmt = $dbh -> prepare($sql);
-    $stmt -> execute();
-    header("Location: added.html");
-}
 
+    $sql = "SELECT * FROM genre WHERE productId = :productId";
+    $res = $dbh->prepare($sql);
+    $res -> execute(array('productId'=>$productId));
+    $count = $res->rowCount();
+
+//      This checks if the item the user wants to add to their cart isn't already in there. This prevents duplicate rows
+//      from being created in the database.
+    if($count == 0)
+    {
+        $sql = "INSERT INTO genre (productId, userId) VALUES (:productId, '1')";
+        $stmt = $dbh -> prepare($sql);
+        $stmt -> execute(
+            array('productId'=>$productId)
+        );
+        header("Location: added.html");
+    }
+    else
+        echo "";
+
+}
 ?>
 
 <!DOCTYPE html>
@@ -27,10 +41,7 @@ if (@$_POST['add'])
     <script src="jquery-2.1.4.min.js"></script>
     <script type="text/javascript">
         // Popup window code
-        function newPopup(url) {
-            popupWindow = window.open(
-                url, 'popUpWindow', 'height=1000%,width=1000%,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
-        }
+
     </script>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" type="text/css" href="navigation.css"/>
